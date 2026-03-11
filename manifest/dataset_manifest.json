@@ -1,0 +1,27 @@
+{
+  "snapshot_date": "2026-03-12",
+  "raw_source_filename": "CC_x.txt",
+  "canonical_raw_asset_name": "cc10plus_roots_snapshot_2026-03-12.txt.gz",
+  "canonical_csv_asset_name": "cc10plus_roots_snapshot_2026-03-12.csv.gz",
+  "total_roots": 929574,
+  "counts_by_cc": {
+    "CC10": 749024,
+    "CC11": 132580,
+    "CC12": 39138,
+    "CC13": 7226,
+    "CC14": 1323,
+    "CC15": 238,
+    "CC16": 44,
+    "CC17": 1
+  },
+  "format_raw": "CC<level> 0x<hex_root> <decimal_digits>",
+  "format_csv": "cc,root_hex,digits,bits",
+  "bit_ranges_summary": {
+    "min_bits": 59,
+    "max_bits": 153,
+    "primary_band": "89-91"
+  },
+  "sieve_target": 18,
+  "grid_modulus": 40755,
+  "notes": "Snapshot of the NEW4 campaign. First-kind Cunningham chain roots (CC10+) that survived a CC18-targeted sieve. The campaign may continue beyond this snapshot."
+}
